@@ -1,0 +1,70 @@
+.navigation-bar {
+  position: sticky;
+  background: white;
+  top: 0;
+  z-index: var(--layer-important);
+  &__container {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: var(--size-3) var(--size-11);
+  }
+  &__items {
+    font: var(--font-size-3) proxima-nova;
+    display: flex;
+    align-items: center;
+    gap: var(--size-9);
+  }
+  &__icon {
+    cursor: pointer;
+    width: 100px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &__button {
+    display: inline-flex;
+    white-space: nowrap;
+    font-size: var(--font-size-3);
+    padding-inline: var(--size-8);
+    padding-block: var(--size-2);
+    border: var(--border-size-1) solid $primary-color;
+    background-color: transparent;
+    border-radius: var(--radius-2);
+    &:is(:hover, :focus) {
+      cursor: pointer;
+      color: var(--blue-0);
+      background-color: $primary-color;
+    }
+
+    &:active:not(:focus-visible) {
+      position: relative;
+      /*     inset-block-start: 2px; */
+    }
+  }
+}
+
+.navigation-bar-items {
+  &__item {
+    position: relative;
+    &:after {
+      background-color: $primary-color;
+      bottom: -5px;
+      content: "";
+      height: 2px;
+      left: 0;
+      margin-right: auto;
+      position: absolute;
+      right: 0;
+      transition: all 0.2s ease;
+      width: 0px;
+    }
+    cursor: pointer;
+    &:is(:hover, :focus) {
+      &:after {
+        width: 70px;
+      }
+    }
+  }
+}

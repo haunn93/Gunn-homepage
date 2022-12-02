@@ -1,0 +1,87 @@
+.footer {
+  color: white;
+
+  &__primary-footer {
+    background-color: $secondary-color;
+    display: flex;
+    padding: var(--size-8) var(--size-10);
+  }
+  &__secondary-footer {
+    background-color: #051315;
+    font-size: var(--font-size-0);
+    padding-inline: var(--size-11);
+    padding-block: var(--size-5);
+  }
+}
+
+.primary-footer-nagivation {
+  flex: 1 1;
+  margin-left: var(--size-8);
+  &__icon {
+    width: 100px;
+  }
+  &__navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: var(--size-8);
+    font-weight: var(--font-weight-6);
+  }
+}
+
+.footer-nagivation-bar {
+  &__container {
+    flex: 1 1;
+  }
+  &__item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    &:after {
+      background-color: $primary-color;
+      bottom: -10px;
+      content: "";
+      height: 4px;
+      left: 0;
+      margin-right: auto;
+      position: absolute;
+      right: 0;
+      transition: all 0.2s ease;
+      width: 70px;
+    }
+    &:is(:hover, :focus) {
+      &:after {
+        width: 100px;
+      }
+    }
+  }
+}
+
+.primary-footer-get-in-touch {
+  width: 200px;
+  &__time-info {
+    margin-bottom: var(--size-4);
+  }
+  &__header {
+    font-weight: 600;
+    margin-bottom: var(--size-4);
+  }
+  &__item {
+    font-weight: 200;
+    margin-bottom: var(--size-1);
+  }
+  &__contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-2);
+  }
+  &__contact {
+    display: flex;
+    font-weight: var(--font-weight-6);
+    div {
+      width: var(--size-8);
+    }
+    span {
+      font-weight: 200;
+    }
+  }
+}

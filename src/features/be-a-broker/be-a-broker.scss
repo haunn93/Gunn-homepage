@@ -1,0 +1,166 @@
+.be-a-broker {
+  height: calc(100vh - 75px);
+  display: flex;
+  &__content {
+    flex-direction: column;
+    flex: 1 1;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+  }
+  &__gradient-line {
+    width: 2px;
+    background: linear-gradient(
+      0deg,
+      rgb(231, 231, 231) 0%,
+      rgba(232, 232, 232, 1) 20%,
+      rgba(255, 255, 255, 1) 80%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  }
+  &__broker-image {
+    display: flex;
+    width: 600px;
+    position: absolute;
+    right: var(--size-8);
+    bottom: 0;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &__number-one-image {
+    position: absolute;
+    z-index: -1;
+    top: 185px;
+    left: 500px;
+  }
+}
+
+.be-a-broker-content {
+  &__container {
+    width: var(--size-md);
+    padding-left: var(--size-10);
+  }
+  &__header {
+    position: relative;
+    font: 500 120px/90px proxima-nova;
+    span {
+      color: $primary-color;
+    }
+    &:after {
+      background-color: $primary-color;
+      bottom: -16px;
+      content: "";
+      height: 4px;
+      left: 0;
+      margin-right: auto;
+      position: absolute;
+      right: 0;
+      transition: all 0.2s ease;
+      width: var(--size-12);
+    }
+  }
+  &__context {
+    margin-top: var(--size-8);
+    font: 34px/40px proxima-nova;
+  }
+  &__free-to-use {
+    margin-block: var(--size-11);
+    position: relative;
+    font: bold 44px proxima-nova;
+    &:after {
+      background-color: $primary-color;
+      bottom: -2px;
+      content: "";
+      height: 4px;
+      left: 0;
+      margin-right: auto;
+      position: absolute;
+      right: 0;
+      transition: all 0.2s ease;
+      width: var(--size-12);
+    }
+  }
+}
+
+.be-a-broker-content-footer {
+  display: flex;
+  div {
+    box-shadow: var(--shadow-4);
+  }
+  &__how-it-work {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    font: normal var(--font-size-4) "proxima-nova";
+    background-color: $primary-color;
+    color: white;
+    padding: var(--size-2) var(--size-5);
+    img {
+      width: var(--size-4);
+      padding-right: var(--size-3);
+    }
+  }
+  &__the-best-business {
+    width: 500px;
+    padding: var(--size-2) var(--size-8);
+    background-color: var(--gray-11);
+    img {
+      width: var(--size-14);
+    }
+  }
+}
+
+.be-a-broker-key-benefit {
+  margin-top: auto;
+  width: 360px;
+  &__title {
+    margin-inline: auto;
+    display: inline-flex;
+    position: relative;
+    margin-bottom: var(--size-3);
+    font: 500 var(--size-5) proxima-nova;
+    &:after {
+      background-color: $primary-color;
+      bottom: -2px;
+      content: "";
+      height: 3px;
+      left: 0;
+      margin-right: auto;
+      position: absolute;
+      right: 0;
+      transition: all 0.2s ease;
+      width: var(--size-8);
+    }
+  }
+  &__container {
+    padding-inline: var(--size-8);
+  }
+  &__item {
+    display: flex;
+    img {
+      width: 40px;
+      height: 40px;
+      margin-right: var(--size-6);
+    }
+    div {
+      line-height: var(--font-lineheight-4);
+      margin-top: var(--size-000);
+    }
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-7);
+    padding-inline: var(--size-3);
+    padding-bottom: var(--size-4);
+  }
+  &__button-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-6);
+    margin-block: var(--size-11);
+  }
+}

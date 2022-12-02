@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.207" height="37.943" viewBox="0 0 38.207 37.943">
+  <g id="Group_6134" data-name="Group 6134" transform="translate(0.001 0.5)">
+    <g id="Rectangle_1644" data-name="Rectangle 1644" transform="translate(-0.001 2.292)" fill="none" stroke="#3f9" stroke-width="1">
+      <rect width="38.207" height="35.15" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="37.207" height="34.15" rx="1.5" fill="none"/>
+    </g>
+    <g id="Group_6128" data-name="Group 6128" transform="translate(4.584 14.519)">
+      <rect id="Rectangle_1645" data-name="Rectangle 1645" width="7.641" height="7.641" rx="1" transform="translate(1.528 1.528)" fill="#3f9"/>
+      <g id="Rectangle_1647" data-name="Rectangle 1647" fill="none" stroke="#3f9" stroke-width="1">
+        <rect width="7.641" height="7.641" rx="1" stroke="none"/>
+        <rect x="0.5" y="0.5" width="6.641" height="6.641" rx="0.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_6129" data-name="Group 6129" transform="translate(15.282 14.519)">
+      <rect id="Rectangle_1645-2" data-name="Rectangle 1645" width="7.641" height="7.641" rx="1" transform="translate(1.528 1.528)" fill="#3f9"/>
+      <g id="Rectangle_1647-2" data-name="Rectangle 1647" fill="none" stroke="#3f9" stroke-width="1">
+        <rect width="7.641" height="7.641" rx="1" stroke="none"/>
+        <rect x="0.5" y="0.5" width="6.641" height="6.641" rx="0.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_6130" data-name="Group 6130" transform="translate(25.98 14.519)">
+      <rect id="Rectangle_1645-3" data-name="Rectangle 1645" width="7.641" height="7.641" rx="1" transform="translate(1.528 1.528)" fill="#3f9"/>
+      <g id="Rectangle_1647-3" data-name="Rectangle 1647" fill="none" stroke="#3f9" stroke-width="1">
+        <rect width="7.641" height="7.641" rx="1" stroke="none"/>
+        <rect x="0.5" y="0.5" width="6.641" height="6.641" rx="0.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_6131" data-name="Group 6131" transform="translate(25.98 25.217)">
+      <rect id="Rectangle_1645-4" data-name="Rectangle 1645" width="7.641" height="7.641" rx="1" transform="translate(1.528 1.528)" fill="#3f9"/>
+      <g id="Rectangle_1647-4" data-name="Rectangle 1647" fill="none" stroke="#3f9" stroke-width="1">
+        <rect width="7.641" height="7.641" rx="1" stroke="none"/>
+        <rect x="0.5" y="0.5" width="6.641" height="6.641" rx="0.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_6132" data-name="Group 6132" transform="translate(15.282 25.217)">
+      <rect id="Rectangle_1645-5" data-name="Rectangle 1645" width="7.641" height="7.641" rx="1" transform="translate(1.528 1.528)" fill="#3f9"/>
+      <g id="Rectangle_1647-5" data-name="Rectangle 1647" fill="none" stroke="#3f9" stroke-width="1">
+        <rect width="7.641" height="7.641" rx="1" stroke="none"/>
+        <rect x="0.5" y="0.5" width="6.641" height="6.641" rx="0.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_6133" data-name="Group 6133" transform="translate(4.584 25.217)">
+      <rect id="Rectangle_1645-6" data-name="Rectangle 1645" width="7.641" height="7.641" rx="1" transform="translate(1.528 1.528)" fill="#3f9"/>
+      <g id="Rectangle_1647-6" data-name="Rectangle 1647" fill="none" stroke="#3f9" stroke-width="1">
+        <rect width="7.641" height="7.641" rx="1" stroke="none"/>
+        <rect x="0.5" y="0.5" width="6.641" height="6.641" rx="0.5" fill="none"/>
+      </g>
+    </g>
+    <line id="Line_298" data-name="Line 298" x1="36.679" transform="translate(0.764 9.17)" fill="none" stroke="#3f9" stroke-width="1"/>
+    <line id="Line_299" data-name="Line 299" y2="4.585" transform="translate(9.933)" fill="none" stroke="#3f9" stroke-linecap="round" stroke-width="1"/>
+    <line id="Line_300" data-name="Line 300" y2="4.585" transform="translate(28.273)" fill="none" stroke="#3f9" stroke-linecap="round" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+.custom-button {
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  color: white;
+  font-size: var(--font-size-3);
+  padding-inline: var(--size-8);
+  padding-block: var(--size-4);
+  border: var(--border-size-1) solid $primary-color;
+  background-color: $primary-color;
+  border-radius: var(--radius-2);
+  font: 18px proxima-nova;
+  &:is(:hover, :focus) {
+    cursor: pointer;
+    background-color: #2bdb83;
+  }
+
+  &:active:not(:focus-visible) {
+    position: relative;
+    /*     inset-block-start: 2px; */
+  }
+  &.outline {
+    background: white;
+    color: $primary-color;
+    &:is(:hover, :focus) {
+      cursor: pointer;
+      color: var(--blue-0);
+      background-color: $primary-color;
+    }
+
+    &:active:not(:focus-visible) {
+      position: relative;
+      /*     inset-block-start: 2px; */
+    }
+  }
+  img {
+    width: 20px;
+    height: 20px;
+    margin-left: var(--size-3);
+  }
+}

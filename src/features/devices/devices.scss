@@ -1,0 +1,27 @@
+.devices-section {
+  margin-top: var(--size-12);
+  &__image {
+    margin-left: var(--size-7);
+    display: flex;
+    width: 50%;
+  }
+  &__device-list {
+    background-color: $primary-color;
+    font-size: var(--font-size-8);
+    padding: var(--size-1) var(--size-9);
+    span {
+      color: white;
+    }
+  }
+  &__slogan {
+    display: flex;
+    justify-content: space-between;
+    background-color: $secondary-color;
+    font-size: var(--font-size-5);
+    color: white;
+    padding: var(--size-8) var(--size-9);
+    span {
+      color: $primary-color;
+    }
+  }
+}

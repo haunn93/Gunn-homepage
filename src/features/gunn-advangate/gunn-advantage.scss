@@ -1,0 +1,67 @@
+.gunn-advantage {
+  height: 1200px;
+  display: flex;
+}
+.gunn-advantage-application {
+  flex: 1 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary-color;
+  color: white;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__header {
+    font-size: var(--font-size-4);
+  }
+}
+
+.gunn-advantage-content {
+  position: relative;
+  flex: 1 1;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  padding-inline: var(--size-9);
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-6);
+  }
+  &__title {
+    padding-inline: var(--size-9);
+    font-size: var(--size-10);
+    margin-bottom: var(--size-4);
+    span {
+      color: $primary-color;
+    }
+  }
+  &__item {
+    display: flex;
+    justify-content: flex-end;
+    font-size: var(--font-size-4);
+    img {
+      width: 30px;
+      height: 30px;
+      margin-left: var(--size-8);
+    }
+  }
+  &__gunn-icon {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    z-index: -1;
+  }
+}
+
+.gunn-advantage-footer {
+  text-align: right;
+  background-color: $secondary-color;
+  img {
+    height: 60px;
+    margin-right: var(--size-10);
+  }
+}

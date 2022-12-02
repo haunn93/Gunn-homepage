@@ -1,0 +1,110 @@
+.gunn-features {
+  display: flex;
+  margin-bottom: var(--size-10);
+}
+.gunn-features-application {
+  flex: 1 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary-color;
+  color: white;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.gunn-features-content {
+  position: relative;
+  flex: 1 1;
+  display: flex;
+  margin-block: var(--size-10);
+  padding-inline: var(--size-9);
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    font-size: var(--size-10);
+    margin-bottom: var(--size-4);
+    span {
+      color: $primary-color;
+    }
+  }
+  &__features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-8) var(--size-10);
+  }
+  &__gunn-icon {
+    position: absolute;
+    top: -10%;
+    left: 10%;
+    z-index: -1;
+  }
+  &__button-container {
+    margin-top: var(--size-8);
+    display: flex;
+    gap: var(--size-8) var(--size-10);
+    .custom-button {
+      border-width: 2px;
+      width: 260px;
+      height: 80px;
+    }
+  }
+}
+
+.gunn-features-content-item {
+  width: 260px;
+  display: flex;
+  font-size: var(--font-size-1);
+  border: var(--border-size-2) solid $primary-color;
+  padding: var(--size-4);
+  img {
+    width: 30px;
+    height: 30px;
+    margin-right: var(--size-3);
+  }
+  &__heading {
+    font-weight: 600;
+    margin-bottom: var(--size-2);
+  }
+  &__description {
+    color: var(--gray-6);
+    font: 200 var(--font-size-0) / var(--font-lineheight-3) proxima-nova;
+  }
+}
+
+.gunn-features-footer {
+  text-align: right;
+  background-color: $secondary-color;
+  img {
+    height: 60px;
+    margin-right: var(--size-10);
+  }
+}
+
+.gunn-features-image {
+  flex: 1 1;
+  max-width: 800px;
+  position: relative;
+  &::after {
+    content: "";
+    border: var(--border-size-4) solid #33fe99;
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    border-radius: var(--radius-2);
+    width: 80%;
+    height: 100%;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 35%;
+  }
+}
